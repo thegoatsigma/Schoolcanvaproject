@@ -1,2 +1,6 @@
 # The Docker image that will be used to build your app
-image: Housingwe.Svg
+image: Alphine:latest
+# Functions that should be executed before the build script is run
+before_script:
+  - "image: alpine:latest  pages:   stage: deploy   script:   - echo 'Nothing to
+    do...'   artifacts:     paths:     - public   only:   - master"
