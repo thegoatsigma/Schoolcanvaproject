@@ -157,6 +157,7 @@ a.a2{
 	text-align: center;
 }
 .d{
+	margin-bottom: 70px;
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: column;
